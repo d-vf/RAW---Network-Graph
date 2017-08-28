@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.3" version="1.3" xmlns:viz="http://www.gexf.net/1.3/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.3 http://www.gexf.net/1.3/gexf.xsd">
+  <meta lastmodifieddate="2017-01-14">
+    <creator>Gephi 0.9</creator>
+    <description></description>
+  </meta>
+  <graph defaultedgetype="directed" timeformat="double" timerepresentation="interval" mode="dynamic">
+    <attributes class="node" mode="static">
+      <attribute id="type" title="Type" type="string"></attribute>
+      <attribute id="nace" title="NACE" type="string"></attribute>
+      <attribute id="country" title="Country" type="string"></attribute>
+      <attribute id="starting date" title="starting date" type="string"></attribute>
+      <attribute id="ending date" title="ending date" type="string"></attribute>
+      <attribute id="indegree" title="In-Degree" type="integer">
+        <default>0</default>
+      </attribute>
+      <attribute id="outdegree" title="Out-Degree" type="integer">
+        <default>0</default>
+      </attribute>
+      <attribute id="degree" title="Degree" type="integer">
+        <default>0</default>
+      </attribute>
+      <attribute id="weighted indegree" title="Weighted In-Degree" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="weighted outdegree" title="Weighted Out-Degree" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="weighted degree" title="Weighted Degree" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="modularity_class" title="Modularity Class" type="integer">
+        <default>0</default>
+      </attribute>
+      <attribute id="componentnumber" title="Component ID" type="integer">
+        <default>0</default>
+      </attribute>
+      <attribute id="strongcompnum" title="Strongly-Connected ID" type="integer">
+        <default>0</default>
+      </attribute>
+      <attribute id="authority" title="Authority" type="float">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="hub" title="Hub" type="float">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="clustering" title="Clustering Coefficient" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="eigencentrality" title="Eigenvector Centrality" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="lineage" title="Lineage" type="string">
+        <default>Unrelated</default>
+      </attribute>
+      <attribute id="isorigin" title="IsOrigin" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="isancestor" title="IsAncestor" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="isdescendant" title="IsDescendant" type="boolean">
+        <default>false</default>
+      </attribute>
+      <attribute id="distanceancestor" title="DistanceAncestor" type="integer">
+        <default>0</default>
+      </attribute>
+      <attribute id="distancedescendant" title="DistanceDescendant" type="integer">
+        <default>0</default>
+      </attribute>
+      <attribute id="pageranks" title="PageRank" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="eccentricity" title="Eccentricity" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="closnesscentrality" title="Closeness Centrality" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="harmonicclosnesscentrality" title="Harmonic Closeness Centrality" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="betweenesscentrality" title="Betweenness Centrality" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="pr_indegree" title="pr_indegree" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="pr_indegree_normalized" title="pr_indegree_normalized" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="pr_domain" title="pr_domain" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="pr_proximity" title="pr_proximity" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="pr_rank" title="pr_rank" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="pr_rank_min-max-normalized" title="pr_rank_min-max-normalized" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="dimension_1" title="Dimension_1" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="dimension_2" title="Dimension_2" type="double">
+        <default>0.0</default>
+      </attribute>
+    </attributes>
+    <attributes class="node" mode="dynamic">
+      <attribute id="dynamic_indegree" title="Dynamic In-Degree" type="integer"></attribute>
+      <attribute id="dynamic_outdegree" title="Dynamic Out-Degree" type="integer"></attribute>
+      <attribute id="dynamic_degree" title="Dynamic Degree" type="integer"></attribute>
+      <attribute id="dynamic_clustering" title="Dynamic Clustering Coefficient" type="double"></attribute>
+    </attributes>
+    <attributes class="edge" mode="static">
+      <attribute id="from type" title="From Type" type="string"></attribute>
+      <attribute id="edge" title="Edge" type="string"></attribute>
+      <attribute id="starting date" title="starting date" type="string"></attribute>
+      <attribute id="ending date" title="ending date" type="string"></attribute>
+    </attributes>
+    <nodes>
+      <node id="Taguspark, SA" label="Taguspark, SA" start="2011.0">
+        <attvalues>
+          <attvalue for="type" value="Universities"></attvalue>
+          <attvalue for="nace" value="N - Administrative and support service activities"></attvalue>
+          <attvalue for="country" value="PT"></attvalue>
+          <attvalue for="starting date" value="2011"></attvalue>
+          <attvalue for="ending date" value=""></attvalue>
+          <attvalue for="indegree" value="0"></attvalue>
+          <attvalue for="outdegree" value="1"></attvalue>
+          <attvalue for="degree" value="1"></attvalue>
+          <attvalue for="weighted indegree" value="0.0"></attvalue>
+          <attvalue for="weighted outdegree" value="1.0"></attvalue>
+          <attvalue for="weighted degree" value="1.0"></attvalue>
+          <attvalue for="modularity_class" value="7"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
+          <attvalue for="strongcompnum" value="10"></attvalue>
